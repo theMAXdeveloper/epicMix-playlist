@@ -28,6 +28,7 @@ h1 {
   max-width: 800px;
 }
 .mix {
+  width: 50%;
   padding: 0 3em;
   margin: 0;
   list-style: none;
@@ -68,7 +69,7 @@ button.show-list {
 
 @media screen and (min-width: 800px) {
   .mix .song {
-    width: 50%;
+    width: 100%;
     display: inline-flex;
     justify-content: flex-start;
     align-items: center;
